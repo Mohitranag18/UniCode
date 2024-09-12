@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat" , sans-serif , Arial, Helvetica;
+    color: #333333;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 2.5rem;
+    background-color: #F5F5F5;
+    height: 70px;
+}
+.navlogo{
+    height: 70px;
+    width: 150px;
+    position: relative;
+}
+.navlogo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hnav{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.hnav h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333333;
+}
+nav button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.35rem 1.3rem;
+    border: 2px solid #28A745;
+    border-radius: 1.4rem;
+    background-color: #F5F5F5;
+    color: #28A745;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+}
+.left{
+    height: calc(100vh - 70px);
+    width: 50vw;
+    padding: 5rem 2.5rem;
+}
+.left span{
+    color: #28A745;
+}
+#uni{
+    color: #007BFF;
+}
+.left h1{
+    font-size: 3.5rem;
+    margin: 0 0 1rem 0;
+    line-height: 4.5rem;
+    font-weight: 700;
+}
+.left p{
+    font-size: 1.5rem;
+    margin: 0 0 3.4rem 0;
+    line-height: 2rem;
+}
+.left button{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0.35rem 1.3rem;
+    border: 2px solid #28A745;
+    border-radius: 1.4rem;
+    background-color: #F5F5F5;
+    color: #28A745;
+}
+
+.right{
+    height: calc(100vh - 70px);
+    width: 50vw;
+    position: relative;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
